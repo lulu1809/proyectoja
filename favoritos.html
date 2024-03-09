@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Favoritos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Favoritos</title>
+    <meta name="description" content="descripcion de no más de 150 carácteres"> <!--Se pueden usar dos tipos de meta-->
+    <meta name="keywords" content="escribir palabras clave">
+</head>
+
+<body>
+    <header class="container-lg encabezado">
+        <div class="row">
+            <div class="col-sm encabezado">
+                <img src="./Imágenes/logo de flor.webp" alt="Logo flor">
+                <ul>
+                    <a href="index.html">
+                        <li>Inicio</li>
+                        <a href="Favoritos.html">
+                            <li>Favoritos</li>
+                        </a>
+                        <a href="./Experiencias.html">
+                            <li>Experiencias</li>
+                        </a>
+                        <a href="contáctanos.html">
+                            <li>Contáctanos</li>
+                        </a>
+                </ul>
+                <img src="./Imágenes/logo de flor.webp" alt="Logo flor">
+            </div>
+            <div class="col-sm logos">
+                <a href="./carrito.html"><img src="./Imágenes/logo de carrito.png" alt="logo carrito"></a>
+                <a href=""><img src="./Imágenes/logo lista de deseos.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container-lg favoritos"> <!--Favoritos-->
+        <h1>Favoritos</h1>
+        <p>Conoce nuestros arreglos <strong>más vendidos</strong></p>
+    </div>
+
+    <div class="container-lg floresfavoritas">
+        <div class="row">
+            <div class="col flor">
+                <img src="./Imágenes/arreglo de cafe.webp" alt="Favorito 1">
+                <h3>Conjuto café</h3>
+                <h4>$390</h4>
+                <button class="button-56" role="button">Comprar ahora</button>
+                <button class="button-56" role="button">Agregar al carrito</button>
+            </div>
+            <div class="col flor">
+                <img src="./Imágenes/arreglo de flores moradas.webp" alt="Favorito 2">
+                <h3>Tono morado</h3>
+                <h4>$300</h4>
+                <button class="button-56" role="button">Comprar ahora</button>
+                <button class="button-56" role="button">Agregar al carrito</button>
+            </div>
+            <div class="col flor">
+                <img src="./Imágenes/arreglo amor.jpg" alt="Favorito 3">
+                <h3>Conjuto <i>amor</i></h3>
+                <h4>$390</h4>
+                <button class="button-56" role="button">Comprar ahora</button>
+                <button class="button-56" role="button">Agregar al carrito</button>
+            </div>
+        </div>       
+    </div>
+
+    <!--carrusel-->
+    <div class="container-lg carrusel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner fotoscarousel">
+            <div class="carousel-item active">
+                <img src="./Imágenes/recibiendo flores 1.jpg" class="d-block w-100" alt="recibiendo flores 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./Imágenes/recibiendo flores 2.jpg" class="d-block w-100" alt="recibiendo flores 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./Imágenes/recibiendo flores 3.jpg" class="d-block w-100" alt="recibiendo flores 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+    <div class="container-lg redessociales">
+        <h3>Síguenos en nuestras redes sociales</h3>
+        <h4>Podrás encontrar promociones y <strong>más</strong></h4>
+        <div class="logosredessociales">
+            <a href="https://es-la.facebook.com"><img src="./Imágenes/logo de facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="./Imágenes/logo de instagram.png" alt="Instagram"></a>
+            <a href="https://www.tiktok.com/es/"><img src="./Imágenes/logo de tiktok.png" alt="Tik tok"></a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+<div class="container-lg ">
+    <footer>Lourdes Georgina Castañeda Lozano 2024. Todos los derechos reservados.</footer>
+</div>
+
+</html>
